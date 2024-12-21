@@ -1,0 +1,22 @@
+{
+    "chrome": {
+        "URL_START": "https://webqms.lublin.uw.gov.pl/",
+        "hideBrowser": false,
+        "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+        "userDataDir": "C:/Users/pavel/AppData/Local/Google/Chrome/User Data/Profile 2",
+        "compareDate": {
+            "dateFrom": "22-12-2024",
+            "dateTo": "20-02-2025"
+        }
+    },
+    "brave": {
+        "URL_START": "https://web.telegram.org/k/#@notpixel",
+        "hideBrowser": false,
+        "executablePath": "C:/Users/pavel/AppData/Local/BraveSoftware/Brave-Browser/Application/brave.exe",
+        "userDataDir": "C:/Users/pavel/AppData/Local/BraveSoftware/Brave-Browser/User Data/",
+        "compareDate": {
+            "dateFrom": "22-12-2024",
+            "dateTo": "20-02-2025"
+        }
+    }
+}
