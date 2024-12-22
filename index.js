@@ -7,7 +7,7 @@ const runInterval = async () => {
   try {
     const launchTime = getWarsawTime();
     setInterval(async () => {
-      await startBot(interval);
+      await startBot(launchTime);
     }, interval);
     console.log({ launchTime });
     // await startBot(launchTime);
