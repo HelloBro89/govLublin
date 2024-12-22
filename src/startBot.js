@@ -1,7 +1,14 @@
 const { chrome, brave } = require('../config/mainConfig.json');
 const runBrowser = require('../runner/chrome');
 
-const { waitForResponse, handleJsonFile, formatDate, checkFile, wait } = require('../src/utils');
+const {
+  waitForResponse,
+  handleJsonFile,
+  formatDate,
+  checkFile,
+  wait,
+  getWarsawTime,
+} = require('../src/utils');
 
 const SELECTORS = {
   registerBtn: '#Operacja2 > div:nth-child(2) button',
