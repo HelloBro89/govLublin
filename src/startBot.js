@@ -50,6 +50,7 @@ const startBot = async (launchTime) => {
     maxDate,
     lastCompareDateTo: formatDate(lastCompareDateTo),
     isDateRefreshed,
+    jobTime: getWarsawTime(),
   });
 
   await browser.close();
